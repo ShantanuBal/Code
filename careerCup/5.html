@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<script language=javascript>
+			function matches() {
+				var array = ["honey","hokey","hiney","boni"];
+				re=/^h(\w+)y$/;
+				for(var i=0; i<4; i++) {
+					if(re.test(array[i])) {
+						alert(array[i]);
+					}
+				}
+			}
+		</script>
+	</head>
+	<body onload="matches()">
+		Q. No. 5
+	</body>
+</html>
